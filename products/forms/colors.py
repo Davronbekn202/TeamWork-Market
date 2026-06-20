@@ -1,5 +1,5 @@
 from django import forms
-from models.colors import Color, ProductColor
+from ..models.colors import Color, ProductColor
 
 
 class ColorForm(forms.ModelForm):

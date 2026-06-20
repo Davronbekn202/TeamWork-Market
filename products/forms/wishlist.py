@@ -1,5 +1,5 @@
 from django import forms
-from models.wishlist import Wishlist
+from ..models.wishlist import Wishlist
 
 
 class WishlistForm(forms.ModelForm):

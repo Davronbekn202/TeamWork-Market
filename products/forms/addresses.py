@@ -1,7 +1,7 @@
 from django import forms
-from models.addresses import Address
+from ..models.addresses import Address
 
-class AddressFor(forms.ModelForm):
+class AddressForm(forms.ModelForm):
     class Meta:
         model = Address
         fields = [

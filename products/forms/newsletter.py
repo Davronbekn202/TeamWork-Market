@@ -1,5 +1,5 @@
 from django import forms
-from models.newsletter import Subscriber
+from ..models.newsletter import Subscriber
 
 
 class SubscriberForm(forms.ModelForm):

@@ -10,6 +10,14 @@
 
 <h1>Main</h1>
 
+<a href="{% url 'products:create-product'%}">Create product</a>
+
+
+
+<div>
+    {% block content %}
+    {% endblock %}
+</div>
 
 </body>
 </html>

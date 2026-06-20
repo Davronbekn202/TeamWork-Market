@@ -1,5 +1,5 @@
 from django import forms
-from models.banners import Banner
+from ..models.banners import Banner
 
 
 class BannerForm(forms.ModelForm):

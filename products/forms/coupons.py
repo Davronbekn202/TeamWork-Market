@@ -1,5 +1,5 @@
 from django import forms
-from models.coupons import Coupon
+from ..models.coupons import Coupon
 
 
 class CouponForm(forms.ModelForm):
